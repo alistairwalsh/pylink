@@ -29,7 +29,14 @@
           <span class="ribbon-inner">
             <h1>SwinPyNeuro</h1>
             <h2>Psychophysiological experiments with Psychopy, Eyelink and Datapixx2</h2>
+            <h3 class="masthead-title">
+              <a href="/" title="Home">{{ site.title }}</a>
 
+              {% for page in site.pages_list %}
+                &nbsp;&nbsp;&nbsp;
+                <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+              {% endfor %}
+              </h3>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
