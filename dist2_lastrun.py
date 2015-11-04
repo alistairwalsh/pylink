@@ -1,23 +1,37 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
+<<<<<<< HEAD
 This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed  4 Nov 12:40:34 2015
+=======
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Nov  4 12:48:35 2015
+>>>>>>> origin/pygame
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
 """
 
 from __future__ import division  # so that 1/3=0.333 instead of 1/3=0
+<<<<<<< HEAD
 from psychopy import locale_setup, visual, core, data, event, logging, sound, gui
+=======
+from psychopy import visual, core, data, event, logging, sound, gui
+>>>>>>> origin/pygame
 from psychopy.constants import *  # things like STARTED, FINISHED
 import numpy as np  # whole numpy lib is available, prepend 'np.'
 from numpy import sin, cos, tan, log, log10, pi, average, sqrt, std, deg2rad, rad2deg, linspace, asarray
 from numpy.random import random, randint, normal, shuffle
 import os  # handy system and path functions
+<<<<<<< HEAD
 import sys # to get file system encoding
 
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__)).decode(sys.getfilesystemencoding())
+=======
+
+# Ensure that relative paths start from the same directory as this script
+_thisDir = os.path.dirname(os.path.abspath(__file__))
+>>>>>>> origin/pygame
 os.chdir(_thisDir)
 
 # Store info about the experiment session
@@ -34,7 +48,11 @@ filename = _thisDir + os.sep + 'data/%s_%s_%s' %(expInfo['participant'], expName
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
+<<<<<<< HEAD
     originPath=u'/Users/Neuromancer/Documents/neuralcode/loquacious-octo-turtle/dist2.psyexp',
+=======
+    originPath=u'/Users/Brook/Documents/GoogleDrive/Code/notebooks/loquacious-octo-turtle/dist2.psyexp',
+>>>>>>> origin/pygame
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 #save a log file for detail verbose info
@@ -46,7 +64,11 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 # Start Code - component code to be run before the window creation
 
 # Setup the Window
+<<<<<<< HEAD
 win = visual.Window(size=(1440, 900), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+=======
+win = visual.Window(size=(1280, 800), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
+>>>>>>> origin/pygame
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
@@ -173,7 +195,11 @@ while continueRoutine:
         start.frameNStart = frameN  # exact frame index
         start.status = STARTED
         # keyboard checking is just starting
+<<<<<<< HEAD
         win.callOnFlip(start.clock.reset)  # t=0 on next screen flip
+=======
+        start.clock.reset()  # now t=0
+>>>>>>> origin/pygame
         event.clearEvents(eventType='keyboard')
     if start.status == STARTED:
         theseKeys = event.getKeys(keyList=['return'])
@@ -221,7 +247,11 @@ routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 task = data.TrialHandler(nReps=1, method='random', 
+<<<<<<< HEAD
     extraInfo=expInfo, originPath=-1,
+=======
+    extraInfo=expInfo, originPath=u'/Users/Brook/Documents/GoogleDrive/Code/notebooks/loquacious-octo-turtle/dist2.psyexp',
+>>>>>>> origin/pygame
     trialList=data.importConditions('VWM_coordinates.xlsx'),
     seed=None, name='task')
 thisExp.addLoop(task)  # add the loop to the experiment
@@ -364,7 +394,11 @@ for thisTask in task:
             response.frameNStart = frameN  # exact frame index
             response.status = STARTED
             # keyboard checking is just starting
+<<<<<<< HEAD
             win.callOnFlip(response.clock.reset)  # t=0 on next screen flip
+=======
+            response.clock.reset()  # now t=0
+>>>>>>> origin/pygame
             event.clearEvents(eventType='keyboard')
         if response.status == STARTED:
             theseKeys = event.getKeys(keyList=['left', 'right', 'down', 'up'])
