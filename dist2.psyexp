@@ -1,0 +1,287 @@
+<PsychoPy2experiment version="1.82.01" encoding="utf-8">
+  <Settings>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Data filename" val="'data/%s_%s_%s' %(expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[1024, 768]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="Experiment info" val="{'participant':'', 'session':'001'}" valType="code" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="expName" val="test1" valType="str" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+    <Param name="blendMode" val="avg" valType="str" updates="None"/>
+    <Param name="Save excel file" val="False" valType="bool" updates="None"/>
+    <Param name="Units" val="use prefs" valType="str" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <PolygonComponent name="fix2">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="fix2" valType="code" updates="None"/>
+        <Param name="fillColor" val="white" valType="str" updates="constant"/>
+        <Param name="stopVal" val=".5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$locfix2" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="2.75" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="90" valType="int" updates="constant"/>
+        <Param name="size" val="[0.3, 0.3]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="fix1">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="fix1" valType="code" updates="None"/>
+        <Param name="fillColor" val="white" valType="str" updates="constant"/>
+        <Param name="stopVal" val=".5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$locfix1" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="2" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="90" valType="int" updates="constant"/>
+        <Param name="size" val="[0.3, 0.3]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="fixate">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="fixate" valType="code" updates="None"/>
+        <Param name="fillColor" val="white" valType="str" updates="constant"/>
+        <Param name="stopVal" val=".5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="90" valType="int" updates="constant"/>
+        <Param name="size" val="[0.3, 0.3]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="one">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="one" valType="code" updates="None"/>
+        <Param name="fillColor" val="$col1" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="1.5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$loc1" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val=".5" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="4" valType="int" updates="constant"/>
+        <Param name="size" val="[0.6, 0.6]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="two">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="two" valType="code" updates="None"/>
+        <Param name="fillColor" val="$col2" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="1.5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$loc2" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="1" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val=".5" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="4" valType="int" updates="constant"/>
+        <Param name="size" val="[0.6, 0.6]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="three">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="three" valType="code" updates="None"/>
+        <Param name="fillColor" val="$col3" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="1.5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$loc3" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val=".5" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="4" valType="int" updates="constant"/>
+        <Param name="size" val="[0.6, 0.6]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="four">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="four" valType="code" updates="None"/>
+        <Param name="fillColor" val="$col4" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="1.5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$loc4" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val=".5" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="4" valType="int" updates="constant"/>
+        <Param name="size" val="[0.6, 0.6]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <PolygonComponent name="test">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="fillColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="test" valType="code" updates="None"/>
+        <Param name="fillColor" val="$testColour" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="$testLocation" valType="code" updates="set every frame"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="lineWidth" val="1" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="cm" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="lineColor" val="grey" valType="str" updates="constant"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="3.5" valType="code" updates="None"/>
+        <Param name="lineColorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="nVertices" val="4" valType="int" updates="constant"/>
+        <Param name="size" val="[0.6, 0.6]" valType="code" updates="constant"/>
+      </PolygonComponent>
+      <KeyboardComponent name="response">
+        <Param name="correctAns" val="$corrAns" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
+        <Param name="name" val="response" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'left','right','down','up'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="3.5" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instruct">
+      <TextComponent name="instruction">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="instruction" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="This trail will begin with a fixation point marked with 'x' and be followed by a brief presentation of four different coloured squares. The squares will then disappear, and after a brief delay, one of the squares will reappear having changed location along one axis from its previous location in the group presentation.  &#10;&#10;Your task is to indicate the direction of that single square's move (from its previous location in the group presentation) by pressing either 'up', 'down', 'left', or 'right' arrow keys on the keyboard as soon as you can.  Repeat this process until the trail is complete.&#10;&#10;Press 'enter' to begin." valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.08" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="start">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="start" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'return'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="finish">
+      <TextComponent name="Thanks">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="Thanks" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="Task complete.&#10;Thank you for your time." valType="str" updates="constant"/>
+        <Param name="stopVal" val="3" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.08" valType="code" updates="constant"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruct"/>
+    <LoopInitiator loopType="TrialHandler" name="task">
+      <Param name="conditionsFile" val="VWM_coordinates.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="task" valType="code" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'testColour': u'blue', u'col4': u'yellow', u'locfix1': [0, 1], u'col2': u'green', u'col3': u'red', u'col1': u'blue', u'loc2': [0, -1], u'loc3': [1, 0], u'loc1': [0, 1], u'corrAns': u'down', u'loc4': [1, 1], u'locfix4': [1, 1], u'locfix5': [1, -1], u'locfix2': [0, -1], u'testLocation': [0, -1], u'locfix3': [1, 0]}, {u'testColour': u'blue', u'col4': u'blue', u'locfix1': [0, -1], u'col2': u'red', u'col3': u'yellow', u'col1': u'green', u'loc2': [1, 0], u'loc3': [1, 1], u'loc1': [0, -1], u'corrAns': u'up', u'loc4': [1, -1], u'locfix4': [1, -1], u'locfix5': [-1, 0], u'locfix2': [1, 0], u'testLocation': [1, 1], u'locfix3': [1, 1]}, {u'testColour': u'blue', u'col4': u'green', u'locfix1': [1, 0], u'col2': u'yellow', u'col3': u'blue', u'col1': u'red', u'loc2': [1, 1], u'loc3': [1, -1], u'loc1': [1, 0], u'corrAns': u'left', u'loc4': [-1, 0], u'locfix4': [-1, 0], u'locfix5': [-1, 1], u'locfix2': [1, 1], u'testLocation': [0, -1], u'locfix3': [1, -1]}, {u'testColour': u'blue', u'col4': u'red', u'locfix1': [1, 1], u'col2': u'blue', u'col3': u'green', u'col1': u'yellow', u'loc2': [1, -1], u'loc3': [-1, 0], u'loc1': [1, 1], u'corrAns': u'left', u'loc4': [-1, 1], u'locfix4': [-1, 1], u'locfix5': [-1, -1], u'locfix2': [1, -1], u'testLocation': [-1, -1], u'locfix3': [-1, 0]}, {u'testColour': u'blue', u'col4': u'green', u'locfix1': [1, -1], u'col2': u'yellow', u'col3': u'red', u'col1': u'blue', u'loc2': [-1, 0], u'loc3': [-1, 1], u'loc1': [1, -1], u'corrAns': u'up', u'loc4': [-1, -1], u'locfix4': [-1, -1], u'locfix5': [0, 0], u'locfix2': [-1, 0], u'testLocation': [1, 0], u'locfix3': [-1, 1]}, {u'testColour': u'blue', u'col4': u'red', u'locfix1': [-1, 0], u'col2': u'blue', u'col3': u'yellow', u'col1': u'green', u'loc2': [-1, 1], u'loc3': [-1, -1], u'loc1': [-1, 0], u'corrAns': u'down', u'loc4': [0, 1], u'locfix4': [0, 0], u'locfix5': [0, 1], u'locfix2': [-1, 1], u'testLocation': [-1, 0], u'locfix3': [-1, -1]}, {u'testColour': u'blue', u'col4': u'yellow', u'locfix1': [-1, 1], u'col2': u'blue', u'col3': u'green', u'col1': u'red', u'loc2': [-1, -1], u'loc3': [0, 1], u'loc1': [-1, 1], u'corrAns': u'up', u'loc4': [0, -1], u'locfix4': [0, 1], u'locfix5': [0, -1], u'locfix2': [-1, -1], u'testLocation': [-1, 0], u'locfix3': [0, 0]}, {u'testColour': u'blue', u'col4': u'green', u'locfix1': [-1, -1], u'col2': u'red', u'col3': u'blue', u'col1': u'yellow', u'loc2': [0, 1], u'loc3': [0, -1], u'loc1': [-1, -1], u'corrAns': u'right', u'loc4': [1, 0], u'locfix4': [0, -1], u'locfix5': [1, 0], u'locfix2': [0, 0], u'testLocation': [1, -1], u'locfix3': [0, 1]}, {u'testColour': u'green', u'col4': u'yellow', u'locfix1': [0, 0], u'col2': u'green', u'col3': u'red', u'col1': u'blue', u'loc2': [0, -1], u'loc3': [1, 0], u'loc1': [0, 1], u'corrAns': u'left', u'loc4': [1, 1], u'locfix4': [1, 0], u'locfix5': [1, 1], u'locfix2': [0, 1], u'testLocation': [-1, -1], u'locfix3': [0, -1]}, {u'testColour': u'green', u'col4': u'blue', u'locfix1': [0, 1], u'col2': u'red', u'col3': u'yellow', u'col1': u'green', u'loc2': [1, 0], u'loc3': [1, 1], u'loc1': [0, -1], u'corrAns': u'right', u'loc4': [1, -1], u'locfix4': [1, 1], u'locfix5': [1, -1], u'locfix2': [0, -1], u'testLocation': [1, -1], u'locfix3': [1, 0]}, {u'testColour': u'green', u'col4': u'green', u'locfix1': [0, -1], u'col2': u'yellow', u'col3': u'blue', u'col1': u'red', u'loc2': [1, 1], u'loc3': [1, -1], u'loc1': [1, 0], u'corrAns': u'down', u'loc4': [-1, 0], u'locfix4': [1, -1], u'locfix5': [-1, 0], u'locfix2': [1, 0], u'testLocation': [-1, -1], u'locfix3': [1, 1]}, {u'testColour': u'green', u'col4': u'red', u'locfix1': [1, 0], u'col2': u'blue', u'col3': u'green', u'col1': u'yellow', u'loc2': [1, -1], u'loc3': [-1, 0], u'loc1': [1, 1], u'corrAns': u'up', u'loc4': [-1, 1], u'locfix4': [-1, 0], u'locfix5': [-1, 1], u'locfix2': [1, 1], u'testLocation': [-1, 1], u'locfix3': [1, -1]}, {u'testColour': u'green', u'col4': u'green', u'locfix1': [1, 1], u'col2': u'yellow', u'col3': u'red', u'col1': u'blue', u'loc2': [-1, 0], u'loc3': [-1, 1], u'loc1': [1, -1], u'corrAns': u'up', u'loc4': [-1, -1], u'locfix4': [-1, 1], u'locfix5': [-1, -1], u'locfix2': [1, -1], u'testLocation': [-1, 0], u'locfix3': [-1, 0]}, {u'testColour': u'green', u'col4': u'red', u'locfix1': [1, -1], u'col2': u'blue', u'col3': u'yellow', u'col1': u'green', u'loc2': [-1, 1], u'loc3': [-1, -1], u'loc1': [-1, 0], u'corrAns': u'down', u'loc4': [0, 1], u'locfix4': [-1, -1], u'locfix5': [0, 0], u'locfix2': [-1, 0], u'testLocation': [-1, -1], u'locfix3': [-1, 1]}, {u'testColour': u'green', u'col4': u'yellow', u'locfix1': [-1, 0], u'col2': u'blue', u'col3': u'green', u'col1': u'red', u'loc2': [-1, -1], u'loc3': [0, 1], u'loc1': [-1, 1], u'corrAns': u'right', u'loc4': [0, -1], u'locfix4': [0, 0], u'locfix5': [0, 1], u'locfix2': [-1, 1], u'testLocation': [1, 1], u'locfix3': [-1, -1]}, {u'testColour': u'green', u'col4': u'green', u'locfix1': [-1, 1], u'col2': u'red', u'col3': u'blue', u'col1': u'yellow', u'loc2': [0, 1], u'loc3': [0, -1], u'loc1': [-1, -1], u'corrAns': u'left', u'loc4': [1, 0], u'locfix4': [0, 1], u'locfix5': [0, -1], u'locfix2': [-1, -1], u'testLocation': [-1, 0], u'locfix3': [0, 0]}, {u'testColour': u'red', u'col4': u'yellow', u'locfix1': [-1, -1], u'col2': u'green', u'col3': u'red', u'col1': u'blue', u'loc2': [0, -1], u'loc3': [1, 0], u'loc1': [0, 1], u'corrAns': u'left', u'loc4': [1, 1], u'locfix4': [0, -1], u'locfix5': [1, 0], u'locfix2': [0, 0], u'testLocation': [-1, 0], u'locfix3': [0, 1]}, {u'testColour': u'red', u'col4': u'blue', u'locfix1': [0, 0], u'col2': u'red', u'col3': u'yellow', u'col1': u'green', u'loc2': [1, 0], u'loc3': [1, 1], u'loc1': [0, -1], u'corrAns': u'up', u'loc4': [1, -1], u'locfix4': [1, 0], u'locfix5': [1, 1], u'locfix2': [0, 1], u'testLocation': [1, 1], u'locfix3': [0, -1]}, {u'testColour': u'red', u'col4': u'green', u'locfix1': [0, 1], u'col2': u'yellow', u'col3': u'blue', u'col1': u'red', u'loc2': [1, 1], u'loc3': [1, -1], u'loc1': [1, 0], u'corrAns': u'up', u'loc4': [-1, 0], u'locfix4': [1, 1], u'locfix5': [1, -1], u'locfix2': [0, -1], u'testLocation': [1, 1], u'locfix3': [1, 0]}, {u'testColour': u'red', u'col4': u'red', u'locfix1': [0, -1], u'col2': u'blue', u'col3': u'green', u'col1': u'yellow', u'loc2': [1, -1], u'loc3': [-1, 0], u'loc1': [1, 1], u'corrAns': u'right', u'loc4': [-1, 1], u'locfix4': [1, -1], u'locfix5': [-1, 0], u'locfix2': [1, 0], u'testLocation': [0, 1], u'locfix3': [1, 1]}, {u'testColour': u'red', u'col4': u'green', u'locfix1': [1, 0], u'col2': u'yellow', u'col3': u'red', u'col1': u'blue', u'loc2': [-1, 0], u'loc3': [-1, 1], u'loc1': [1, -1], u'corrAns': u'down', u'loc4': [-1, -1], u'locfix4': [-1, 0], u'locfix5': [-1, 1], u'locfix2': [1, 1], u'testLocation': [-1, 0], u'locfix3': [1, -1]}, {u'testColour': u'red', u'col4': u'red', u'locfix1': [1, 1], u'col2': u'blue', u'col3': u'yellow', u'col1': u'green', u'loc2': [-1, 1], u'loc3': [-1, -1], u'loc1': [-1, 0], u'corrAns': u'down', u'loc4': [0, 1], u'locfix4': [-1, 1], u'locfix5': [-1, -1], u'locfix2': [1, -1], u'testLocation': [0, -1], u'locfix3': [-1, 0]}, {u'testColour': u'red', u'col4': u'yellow', u'locfix1': [1, -1], u'col2': u'blue', u'col3': u'green', u'col1': u'red', u'loc2': [-1, -1], u'loc3': [0, 1], u'loc1': [-1, 1], u'corrAns': u'right', u'loc4': [0, -1], u'locfix4': [-1, -1], u'locfix5': [0, 0], u'locfix2': [-1, 0], u'testLocation': [0, 1], u'locfix3': [-1, 1]}, {u'testColour': u'red', u'col4': u'green', u'locfix1': [-1, 0], u'col2': u'red', u'col3': u'blue', u'col1': u'yellow', u'loc2': [0, 1], u'loc3': [0, -1], u'loc1': [-1, -1], u'corrAns': u'left', u'loc4': [1, 0], u'locfix4': [0, 0], u'locfix5': [0, 1], u'locfix2': [-1, 1], u'testLocation': [-1, 1], u'locfix3': [-1, -1]}, {u'testColour': u'yellow', u'col4': u'yellow', u'locfix1': [-1, 1], u'col2': u'green', u'col3': u'red', u'col1': u'blue', u'loc2': [0, -1], u'loc3': [1, 0], u'loc1': [0, 1], u'corrAns': u'down', u'loc4': [1, 1], u'locfix4': [0, 1], u'locfix5': [0, -1], u'locfix2': [-1, -1], u'testLocation': [1, 0], u'locfix3': [0, 0]}, {u'testColour': u'yellow', u'col4': u'blue', u'locfix1': [-1, -1], u'col2': u'red', u'col3': u'yellow', u'col1': u'green', u'loc2': [1, 0], u'loc3': [1, 1], u'loc1': [0, -1], u'corrAns': u'left', u'loc4': [1, -1], u'locfix4': [0, -1], u'locfix5': [1, 0], u'locfix2': [0, 0], u'testLocation': [0, 1], u'locfix3': [0, 1]}, {u'testColour': u'yellow', u'col4': u'green', u'locfix1': [0, 0], u'col2': u'yellow', u'col3': u'blue', u'col1': u'red', u'loc2': [1, 1], u'loc3': [1, -1], u'loc1': [1, 0], u'corrAns': u'down', u'loc4': [-1, 0], u'locfix4': [1, 0], u'locfix5': [1, 1], u'locfix2': [0, 1], u'testLocation': [1, -1], u'locfix3': [0, -1]}, {u'testColour': u'yellow', u'col4': u'red', u'locfix1': [0, 1], u'col2': u'blue', u'col3': u'green', u'col1': u'yellow', u'loc2': [1, -1], u'loc3': [-1, 0], u'loc1': [1, 1], u'corrAns': u'left', u'loc4': [-1, 1], u'locfix4': [1, 1], u'locfix5': [1, -1], u'locfix2': [0, -1], u'testLocation': [-1, 1], u'locfix3': [1, 0]}, {u'testColour': u'yellow', u'col4': u'green', u'locfix1': [0, -1], u'col2': u'yellow', u'col3': u'red', u'col1': u'blue', u'loc2': [-1, 0], u'loc3': [-1, 1], u'loc1': [1, -1], u'corrAns': u'up', u'loc4': [-1, -1], u'locfix4': [1, -1], u'locfix5': [-1, 0], u'locfix2': [1, 0], u'testLocation': [-1, 1], u'locfix3': [1, 1]}, {u'testColour': u'yellow', u'col4': u'red', u'locfix1': [1, 0], u'col2': u'blue', u'col3': u'yellow', u'col1': u'green', u'loc2': [-1, 1], u'loc3': [-1, -1], u'loc1': [-1, 0], u'corrAns': u'up', u'loc4': [0, 1], u'locfix4': [-1, 0], u'locfix5': [-1, 1], u'locfix2': [1, 1], u'testLocation': [-1, 0], u'locfix3': [1, -1]}, {u'testColour': u'yellow', u'col4': u'yellow', u'locfix1': [1, 1], u'col2': u'blue', u'col3': u'green', u'col1': u'red', u'loc2': [-1, -1], u'loc3': [0, 1], u'loc1': [-1, 1], u'corrAns': u'right', u'loc4': [0, -1], u'locfix4': [-1, 1], u'locfix5': [-1, -1], u'locfix2': [1, -1], u'testLocation': [1, -1], u'locfix3': [-1, 0]}, {u'testColour': u'yellow', u'col4': u'green', u'locfix1': [1, -1], u'col2': u'red', u'col3': u'blue', u'col1': u'yellow', u'loc2': [0, 1], u'loc3': [0, -1], u'loc1': [-1, -1], u'corrAns': u'right', u'loc4': [1, 0], u'locfix4': [-1, -1], u'locfix5': [0, 0], u'locfix2': [-1, 0], u'testLocation': [0, -1], u'locfix3': [-1, 1]}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="task"/>
+    <Routine name="finish"/>
+  </Flow>
+</PsychoPy2experiment>
