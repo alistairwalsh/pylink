@@ -1,1 +1,4 @@
 data/
+*.pyc
+.DS_Store
+.gitignore
