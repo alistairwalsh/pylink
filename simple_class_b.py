@@ -35,15 +35,24 @@ green_box.colour = "green"
 win = visual.Window(size=(400,400),color="white", units='pix')
 square = visual.Rect(win,lineColor="black",size = [100,100],fillColor=red_box.colour)#,fillColor=red_box.colour ,size=red_box.size,)
 
-for step in range(0,100):
-    red_box.current_pos[0] += step
-    red_box.current_pos[1] -= step 
-    square.pos = red_box.current_pos
+x_change = 10
+y_change = 10
+
+while True:
+    red_box.current_pos+=(x_change,y_change)
+
+    if red_box.current_pos[0] > 790 or red_box.current_pos[0] < -790:
+        x_change = x_change * -1
+    if red_box.current_pos[1] > 440 or red_box.current_pos[1] < -440:
+        y_change = y_change * -1
+
     square.draw()
     win.flip()
+ 
     core.wait(.1) #pause for 500 ms (half a second)
     
-sys.exit()
+core.quit()    
+#sys.exit()
 
 
 
