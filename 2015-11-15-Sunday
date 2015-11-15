@@ -1,0 +1,19 @@
+#Sunday, 15 November 2015
+---
+- reduce light in the room
+
+- adjust brightness
+- if necessary change target from centroid to ellipse
+- if it is tracking left but stating right, just click on the eye location to change it
+- auto calibrate
+- auto validate
+
+additional options in output/record:
+- gaze/HREF
+- further settings in here may allow us to record button-pressing information
+
+- get data by connecting via the established network
+     - use internet explorer (firefox did not work) to 1000.1.1.1 (double check the address)
+     - loads data for view
+
+- network hub would be useful to add another computer to the connection (i.e, a laptop where the experiment is running)
