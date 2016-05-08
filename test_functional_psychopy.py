@@ -25,4 +25,6 @@ class NewWindowTest(unittest.TestCase):  #1
         
 
 if __name__ == '__main__':  #7
+    TestCase.setUp()
     unittest.main()  #8
+    unittest.tearDown()
